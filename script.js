@@ -7,9 +7,9 @@ function checkPalindrom(palindrom)
     {
         if( palindrom[i] = palindrom.charAt(palindrom.length)-1 )
         {
-            document.write('the word is palindrome.');
+            console.log('true');
         }else{
-            document.write('the word is not palindrome!');
+              console.log('false');
         }
     }
 }
